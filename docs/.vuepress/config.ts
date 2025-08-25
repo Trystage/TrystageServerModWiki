@@ -18,7 +18,8 @@ export default defineUserConfig({
     // 顶部导航栏
     navbar: [
       { text: '首页', link: '/' },
-      { text: '模组服文档', link: '/Modding/' }
+      { text: '模组服文档', link: '/Modding/' },
+      { text: 'TSMP文档', link: '/TSMP/' }
     ],
 
     // 侧边栏配置
@@ -27,6 +28,9 @@ export default defineUserConfig({
         '', // 对应 Modding/README.md
         'Recipe',
         'Mechanics'
+      ],
+      '/TSMP/': [
+        ''
       ]
     }
   })

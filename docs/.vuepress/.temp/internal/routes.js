@@ -1,10 +1,11 @@
 export const redirects = JSON.parse("{}")
 
 export const routes = Object.fromEntries([
-  ["/", { loader: () => import(/* webpackChunkName: "index.html" */"E:/web/trystage/TrystageServerModWiki/docs/.vuepress/.temp/pages/index.html.js"), meta: {"title":"TrystageServer 模组服务器文档"} }],
+  ["/", { loader: () => import(/* webpackChunkName: "index.html" */"E:/web/trystage/TrystageServerModWiki/docs/.vuepress/.temp/pages/index.html.js"), meta: {"title":"TrystageServer 服务器百科"} }],
   ["/Modding/Mechanics.html", { loader: () => import(/* webpackChunkName: "Modding_Mechanics.html" */"E:/web/trystage/TrystageServerModWiki/docs/.vuepress/.temp/pages/Modding/Mechanics.html.js"), meta: {"title":"游戏机制更改"} }],
   ["/Modding/", { loader: () => import(/* webpackChunkName: "Modding_index.html" */"E:/web/trystage/TrystageServerModWiki/docs/.vuepress/.temp/pages/Modding/index.html.js"), meta: {"title":"TrystageServer模组服务器内更改"} }],
   ["/Modding/Recipe.html", { loader: () => import(/* webpackChunkName: "Modding_Recipe.html" */"E:/web/trystage/TrystageServerModWiki/docs/.vuepress/.temp/pages/Modding/Recipe.html.js"), meta: {"title":"物品合成"} }],
+  ["/TSMP/", { loader: () => import(/* webpackChunkName: "TSMP_index.html" */"E:/web/trystage/TrystageServerModWiki/docs/.vuepress/.temp/pages/TSMP/index.html.js"), meta: {"title":"TSMP 服务器"} }],
   ["/404.html", { loader: () => import(/* webpackChunkName: "404.html" */"E:/web/trystage/TrystageServerModWiki/docs/.vuepress/.temp/pages/404.html.js"), meta: {"title":""} }],
 ]);
 
