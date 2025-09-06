@@ -27,7 +27,8 @@ export default defineUserConfig({
       '/Modding/': [
         '', // 对应 Modding/README.md
         'Recipe',
-        'Mechanics'
+        'Mechanics',
+        'history'
       ],
       '/TSMP/': [
         ''
