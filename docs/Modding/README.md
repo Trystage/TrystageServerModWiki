@@ -6,3 +6,7 @@
 
 [游戏机制更改](Mechanics.md)  
 [游戏配方更改](Recipe.md)  
+
+## 玩家内容
+
+[服务器历史](history/README.md)
