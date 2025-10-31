@@ -1,5 +1,9 @@
 # 物品合成
 为了平衡游戏前期的工业流程与服务器玩法，以下物品的合成配方将进行修改添加或删除
+
+## 传送
+删除了Mekanism的便携传送器合成配方,使服务器的功能更符合实际
+
 ## 锇的获取
 **原配方**(金属冶炼)  
 ![粉碎锇矿石原烧制配方](./img/ingot_osmium_compat_mekanism_origin.png "粉碎锇矿石原烧制配方")  
@@ -29,12 +33,32 @@
 ## OC2RC
 **删除了OC2RC的所有物品合成配方,以避免服务器硬盘占用过大导致钱包空空**
 
+## 量子传送装置
+**原配方**(有序合成)  
+![量子传送装置原配方](./img/quantum_entangloporter_origin.png "量子传送装置原配方")  
+**新配方**(有序合成)  
+![量子传送装置新配方](./img/quantum_entangloporter_new.png "量子传送装置新配方")  
+
+## QIO阵列
+**原配方**(有序合成)  
+![QIO阵列原配方](./img/qio_drive_array_origin.png "QIO阵列原配方")  
+**新配方**(有序合成)  
+![QIO阵列新配方](./img/qio_drive_array_new.png "QIO阵列新配方")  
+
+## 传送器
+**原配方**(有序合成)  
+![传送器原配方](./img/teleporter_origin.png "传送器原配方")  
+**新配方**(有序合成)  
+![传送器新配方](./img/teleporter_new.png "传送器新配方")  
+
+## 传送框架
+将合成结果从9个改为2个
 # 物品加工
 为了为服务器完善更完整的工业链,我们修改添加或删除了以下物品的加工配方
 
 ## 铂矿石特殊加工
 为了补充服务器里没有锇矿的痛苦,我们添加了同为铂族元素的铂矿,并添加了对应的矿物处理  
 **新增配方**(批量洗涤)  
-![铂矿石洗涤](./img/splash.crushed_raw_platinum.png "铂矿石洗涤")    
+![铂矿石洗涤](./img/splash.crushed_raw_platinum.png "铂矿石洗涤")
 
 
