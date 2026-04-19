@@ -19,19 +19,51 @@ export default defineUserConfig({
     navbar: [
       { text: '首页', link: '/' },
       { text: '模组服文档', link: '/Modding/' },
-      { text: 'TSMP文档', link: '/TSMP/' }
+      { text: 'TSMP文档', link: '/TSMP/' },
+      { text: '2B2T文档', link: '/2B2T/' }
     ],
 
     // 侧边栏配置
     sidebar: {
       '/Modding/': [
-        '', // 对应 Modding/README.md
-        'Recipe',
-        'Mechanics'
+        {
+          text: '模组服指南',
+          children: ['', 'Recipe', 'Mechanics']
+        }
       ],
       '/TSMP/': [
-        ''
+        {
+          text: 'TSMP 生存服',
+          children: ['']
+        }
+      ],
+      '/2B2T/': [
+        {
+          text: '2B2T 无政府服',
+          collapsible: false,
+          children: [
+            '',
+            'Recipe',
+            {
+              text: '特殊物品',
+              collapsible: true,
+              link: '/2B2T/items/',
+              children: [
+                'items/fire-charge',
+                'items/hardened-diamond-sword',
+                'items/viking-axe',
+                'items/hardened-diamond-chestplate',
+                'items/heavy-netherite-boots',
+                'items/sharp-helmet',
+                'items/lucky-pickaxe',
+                'items/smelter-pickaxe',
+                'items/world-devourer-pickaxe',
+                'items/worker-shovel',
+              ]
+            }
+          ]
+        }
       ]
-    }
+  }
   })
 })
